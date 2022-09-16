@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+:root {
+
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Signika Negative', sans-serif;
+    --font3: 'Major Mono Display', monospace;
+}
+
+* {
+    font-family: var(--font2);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+html,
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+
+body>header>section>p>a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+body>header>section>p>a>abbr {
+
+    text-decoration: none;
+}
+
+section.cabeca>p>a:hover {
+
+    font-size: 2.6vw;
+    transition-duration: 1s;
+    text-decoration: underline;
+
+
+}
+
+
+
+
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px 2px black, -2px 2px 2px black, 2px -2px 2px black;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2vw;
+
+    background-image: url(../imagens/hacker.gif);
+    background-size: 68vh;
+}
+
+header>section>h1 {
+
+    font-variant: small-caps;
+    padding-bottom: 25px;
+    font-size: 6vw;
+}
+
+header>section>p {
+
+    padding-bottom: 35px;
+}
+
+
+span {
+    font-size: 1.2vw;
+    font-family: var(--font3);
+}
+
+
+
+.zap {
+
+    text-decoration: none;
+}
+
+
+
+section.normal {
+    font-size: 1.5vw;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    line-height: 2.5em;
+
+}
+
+p>a>abbr {
+
+    text-decoration: none;
+}
+
+p>a {
+
+    text-decoration: none;
+}
+
+section.normal>p>a:hover {
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.785);
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 3vw;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 255, 0.777);
+}
+
+abbr {
+
+    text-decoration: none;
+}
+
+section>h1 {
+
+    padding-bottom: 15px;
+}
+
+section.imagem {
+
+    font-size: 1.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+
+
+
+
+
+
+
+}
+
+
+
+
+section.fundo {
+    font-size: 1.5vw;
+    width: 43%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.501);
+    border-radius: 35px;
+
+
+}
+
+section.fundo:hover {
+    font-size: 1.5vw;
+    width: 43%;
+    height: auto;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.407);
+    text-shadow: 2px 2px 3px rgba(52, 52, 52, 0.41);
+    border-radius: 35px;
+    transition-duration: 1s;
+
+
+}
+
+
+
+
+section#img1 {
+
+    background-image: url(../imagens/Tecnologia.png);
+
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+}
+
+section#img2 {
+
+
+    line-height: 3em;
+
+    background-image: url(../imagens/Tecnologia2.png);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+
+
+
+
+
+
+
+}
+
+
+
+footer {
+
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+footer>p>a {
+
+    text-decoration: none;
+    color: white;
+}
+
+footer>p>a:hover {
+
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+
+
+}
