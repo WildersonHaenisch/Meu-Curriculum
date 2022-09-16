@@ -48,7 +48,11 @@ section.cabeca>p>a:hover {
 }
 
 
+.aviso {
 
+    font-size: 22px;
+    color: rgb(255, 0, 0);
+}
 
 
 header {
@@ -61,7 +65,7 @@ header {
     font-size: 2vw;
 
     background-image: url(../imagens/hacker.gif);
-    background-size: 68vh;
+    background-size: 80vh;
 }
 
 header>section>h1 {
