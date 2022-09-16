@@ -65,7 +65,9 @@ header {
     font-size: 2vw;
 
     background-image: url(../imagens/hacker.gif);
-    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 header>section>h1 {
