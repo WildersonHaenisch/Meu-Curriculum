@@ -64,9 +64,10 @@ header {
     padding-bottom: 10px;
     font-size: 2vw;
 
-    background-image: url(../imagens/bghead.jpg);
+    background-image: url(../imagens/bghead.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
