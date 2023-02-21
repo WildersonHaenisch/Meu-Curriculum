@@ -11,22 +11,35 @@
 </head>
 
 
-<body>
+<body id="bod">
     <div class="rgb"></div>
     <header>
 
         <section class="cabeca">
 
+            <div class="modo" id="idmodo">
+
+                <button class="botao" onclick="modoRGB()">
+
+                    modo noturno
+
+                </button>
+
+
+            </div>
+
             <h1>
                 Currículo
             </h1>
 
-            <p>
+
+            <p class="namer">
                 <a href="https://github.com/WildersonHaenisch" target="_blank"><abbr
                         title="Clique para acessar meu portifólio">Wilderson Alan Haenisch</abbr></a>
             </p>
 
-            <p>Estudante de Sistemas de Informação</p>
+
+            <p class="curso">Estudante de Sistemas de Informação</p>
             <p class="aviso"> &#x26A0;&#xFE0F; Se você estiver visualizando pelo celular, por favor incline-o ↺
                 &#x26A0;&#xFE0F; </p>
 
@@ -137,7 +150,7 @@
         </li>
 
         <li>Cursando Bacharel de Sistemas de Informação na Cruzeiro
-            do Sul – 2º Período.
+            do Sul – 3º Período.
         </li>
 
     </section>
@@ -168,12 +181,53 @@
 
     <div class="rgb"></div>
 
+
+
     <script>
 
-        var nome = window.prompt('Olá, como eu posso lhe chamar?');
+        var s = 1784
 
-        window.alert(`Tudo bem com você ${nome}? eu espero que sim :D \nSeja bem-vindo(a) ao meu curriculum, há algumas interações no site, passe o ponteiro do mouse em cima de algumas palavras para verificar.\nSe estiver usando o celular, use em modo paisagem.`)
+        var nome = window.prompt(`Me deixe saber se você não é um robô! Digite abaixo o códiogo: ${s} `)
+
+        if (nome == `${s}`) {
+
+
+            window.alert(`Você não é um robô!\nClique em "Ok" para prosseguir.`)
+
+        } else {
+
+            window.alert(`Você provavelmente é um robô! \nTente novamente!`)
+
+            location.reload()
+
+        }
+
     </script>
+
+
+    <script>
+
+        var nome2 = window.prompt(`Como eu posso lhe chamar?`)
+        var idade = window.prompt(`qual é a sua idade?`)
+        var know = window.confirm('Ok, agora para finalizar clique em "Ok".\n Caso preferir digitar seu nome ou idade novamente, clique em "Cancelar".')
+        if (know == true) {
+            window.alert(`Olá ${nome2}, espero que nesses ${idade} anos de idade você já tenha conquistado muita coisa!\n
+            Seja bem-vindo(a) ao meu currículo :)\n \nPara facilitar o contato comigo, estou disponibilizando meu e-mail e whatsapp neste currículo, é só clicar no ícone do telefone ou e-mail e será redirecionado automaticamente.`)
+        } else {
+            location.reload()
+        }
+
+    </script>
+
+    <script src="script.js">
+
+
+
+    </script>
+
+
+
+
 </body>
 
 </html>

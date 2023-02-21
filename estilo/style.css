@@ -4,18 +4,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
-@keyframes animacao{
+@keyframes animacao {
 
-    0% {background-color: rgb(255, 0, 0);}
-    20% {background-color: rgb(255, 251, 0);}
-    40% {background-color: rgb(9, 255, 0);}
-    60% {background-color: rgb(0, 238, 255);}
-    80% {background-color: rgb(0, 38, 255);}
-    100% {background-color: rgb(234, 0, 255);}
-    
-  
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    20% {
+        background-color: rgb(255, 251, 0);
+    }
+
+    40% {
+        background-color: rgb(9, 255, 0);
+    }
+
+    60% {
+        background-color: rgb(0, 238, 255);
+    }
+
+    80% {
+        background-color: rgb(0, 38, 255);
+    }
+
+    100% {
+        background-color: rgb(234, 0, 255);
+    }
+
+
 
 }
+
+
 
 :root {
 
@@ -45,6 +64,18 @@ body>header>section>p>a {
     color: white;
 }
 
+
+.namer {
+
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.curso {
+
+    margin-top: 75px;
+}
 
 body>header>section>p>a>abbr {
 
@@ -76,6 +107,8 @@ header {
     padding-top: 50px;
     padding-bottom: 10px;
     font-size: 2vw;
+
+
 
     background-image: url(../imagens/bghead.png);
     background-repeat: no-repeat;
@@ -125,13 +158,13 @@ menu ul li:hover {
     padding: 10px;
     font-size: 0.7em;
 
-    color: black;
-    outline: 7px solid rgba(136, 255, 0, 0.521);
+    color: rgb(255, 255, 255);
+    outline: 7px solid rgba(15, 6, 136, 0.521);
     border-radius: 5px;
-    background-color: rgba(183, 216, 188, 0.692);
+    background-color: rgba(0, 26, 255, 0.692);
     cursor: pointer;
     padding: 10px;
-    text-shadow: 0px 0px 3px white;
+    text-shadow: 0px 0px 3px rgb(27, 0, 88);
     transition: color .7s, outline .7s, border-radius .7s, background-color .7s, text-shadow .7s;
 
 
@@ -159,6 +192,21 @@ menu a {
     animation-iteration-count: infinite;
 }
 
+.rgb2 {
+
+    margin: 0px;
+    padding: 0px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    animation-name: animacao2;
+    animation-duration: .3s;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
 
 
 
@@ -177,6 +225,9 @@ span {
 
 
 section.normal {
+
+
+
     font-size: 1.5vw;
     background-color: white;
     color: black;
@@ -184,6 +235,57 @@ section.normal {
     line-height: 2.5em;
 
 }
+
+section.noturnomode {
+
+    font-size: 1.5vw;
+    background-color: rgb(0, 0, 0);
+    color: #DEE2FE;
+    padding: 50px;
+    line-height: 2.5em;
+
+}
+
+.botao {
+
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+
+    background-color: rgba(6, 6, 74, 0.184);
+    color: #DEE2FE;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.botao2 {
+
+
+    background-color: #01062a;
+    color: #DEE2FE;
+}
+
+.botao::before {
+
+    content: "Ativar ";
+
+
+
+}
+
+
+.botao2::before {
+
+    content: "Desativar ";
+    background-color: #01062a;
+    color: #DEE2FE;
+
+
+}
+
+
 
 p>a>abbr {
 
@@ -261,6 +363,27 @@ section.fundo:hover {
 
 }
 
+section.fundo2 {
+    font-size: 1.5vw;
+    width: 43%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.501);
+    border-radius: 35px;
+    color: #DEE2FE;
+
+
+}
+
+section.fundo2:hover {
+    font-size: 1.5vw;
+    width: 43%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.501);
+    border-radius: 35px;
+    color: #DEE2FE;
+
+
+}
 
 
 
