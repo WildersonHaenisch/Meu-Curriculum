@@ -8,6 +8,7 @@ function modoRGB() {
 
     const rgb = document.querySelectorAll(".rgb");
 
+
     //aqui eu precisei colocar esse for para entender que preciso mudar TODOS as classes
     for (var i = 0; i < rgb.length; i++)
 
@@ -31,6 +32,12 @@ function modoRGB() {
     const exp = document.querySelectorAll('.fundo');
     for (var u = 0; u < exp.length; u++)
         exp[u].classList.toggle('fundo2');
+
+
+
+    //aqui tava testando esse codigo, mas nao encaixou entao está inutil.
+    const news = document.querySelector('#new');
+    news.innerHTML = `modo noturno!`;
 
 
 

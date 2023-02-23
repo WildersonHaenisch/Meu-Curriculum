@@ -8,10 +8,12 @@
     <title>Currículo</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
 </head>
 
 
 <body id="bod">
+    
     <div class="rgb"></div>
     <header>
 
@@ -39,7 +41,7 @@
             </p>
 
 
-            <p class="curso">Estudante de Sistemas de Informação</p>
+            <p class="curso"><abbr title="Universidade Cruzeiro do Sul">Estudante de Sistemas de Informação</abbr></p>
             <p class="aviso"> &#x26A0;&#xFE0F; Se você estiver visualizando pelo celular, por favor incline-o ↺
                 &#x26A0;&#xFE0F; </p>
 
@@ -48,20 +50,20 @@
 
 
 
-        <menu>
+        <menu class="ocult">
 
             <ul>
                 <a href="#normal">
-                    <li>Dados Principais</li>
+                    <li class="l1"><abbr title="Clique aqui para ir até Dados Principais">Dados Principais</abbr></li>
                 </a>
                 <a href="#img1">
-                    <li>Experiência Profissional</li>
+                    <li class="l2"><abbr title="Clique aqui para ir até Experiência Profissional">Experiência Profissional</abbr></li>
                 </a>
                 <a href="#normal 2">
-                    <li>Formação Acadêmica</li>
+                    <li class="l3"><abbr title="Clique aqui para ir até Formação Acadêmica">Formação Acadêmica</abbr></li>
                 </a>
                 <a href="#img2">
-                    <li>Outras Informações</li>
+                    <li class="l4"><abbr title="Clique aqui para ir até Outras Informações">Outras Informações</abbr></li>
                 </a>
             </ul>
         </menu>
@@ -149,6 +151,10 @@
             Curso em vídeo. Carga horária de 40 horas/aula.
         </li>
 
+        <li>01/2023 – 02/2023 HTML5 e CSS quarto módulo.
+            Curso em vídeo. Carga horária de 40 horas/aula.
+        </li>
+
         <li>Cursando Bacharel de Sistemas de Informação na Cruzeiro
             do Sul – 3º Período.
         </li>
@@ -183,41 +189,6 @@
 
 
 
-    <script>
-
-        var s = 1784
-
-        var nome = window.prompt(`Me deixe saber se você não é um robô! Digite abaixo o códiogo: ${s} `)
-
-        if (nome == `${s}`) {
-
-
-            window.alert(`Você não é um robô!\nClique em "Ok" para prosseguir.`)
-
-        } else {
-
-            window.alert(`Você provavelmente é um robô! \nTente novamente!`)
-
-            location.reload()
-
-        }
-
-    </script>
-
-
-    <script>
-
-        var nome2 = window.prompt(`Como eu posso lhe chamar?`)
-        var idade = window.prompt(`qual é a sua idade?`)
-        var know = window.confirm('Ok, agora para finalizar clique em "Ok".\n Caso preferir digitar seu nome ou idade novamente, clique em "Cancelar".')
-        if (know == true) {
-            window.alert(`Olá ${nome2}, espero que nesses ${idade} anos de idade você já tenha conquistado muita coisa!\n
-            Seja bem-vindo(a) ao meu currículo :)\n \nPara facilitar o contato comigo, estou disponibilizando meu e-mail e whatsapp neste currículo, é só clicar no ícone do telefone ou e-mail e será redirecionado automaticamente.`)
-        } else {
-            location.reload()
-        }
-
-    </script>
 
     <script src="script.js">
 

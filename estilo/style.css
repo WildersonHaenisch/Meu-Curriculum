@@ -137,17 +137,22 @@ menu {
 
 }
 
+
+
+
 menu ul li {
 
     list-style: none;
     position: relative;
     display: inline-block;
+    color: rgb(179, 179, 179);
     padding: 10px;
     font-size: 0.7em;
     outline: 2px solid rgba(0, 0, 255, 0.603);
     border-radius: 25px;
     box-sizing: border-box;
     margin: 10px;
+
 }
 
 menu ul li:hover {
@@ -158,14 +163,13 @@ menu ul li:hover {
     padding: 10px;
     font-size: 0.7em;
 
-    color: rgb(255, 255, 255);
-    outline: 7px solid rgba(15, 6, 136, 0.521);
-    border-radius: 5px;
-    background-color: rgba(0, 26, 255, 0.692);
+    color: rgb(0, 255, 98);
+    outline: 1px solid rgb(0, 255, 98);
+
     cursor: pointer;
     padding: 10px;
     text-shadow: 0px 0px 3px rgb(27, 0, 88);
-    transition: color .7s, outline .7s, border-radius .7s, background-color .7s, text-shadow .7s;
+    transition: color .5s, text-shadow .2s;
 
 
 
@@ -177,7 +181,54 @@ menu a {
     color: white;
 
 
+
 }
+
+.l1 {
+
+    opacity: 1;
+}
+
+.l1:hover {
+
+    opacity: 1;
+    transition: .7s;
+}
+
+
+.l2 {
+
+    opacity: 1;
+}
+
+.l2:hover {
+
+    opacity: 1;
+    transition: .7s;
+}
+
+.l3 {
+
+    opacity: 1;
+}
+
+.l3:hover {
+
+    opacity: 1;
+    transition: .7s;
+}
+
+.l4 {
+
+    opacity: 1;
+}
+
+.l4:hover {
+
+    opacity: 1;
+    transition: .7s;
+}
+
 
 
 .rgb {
@@ -285,6 +336,13 @@ section.noturnomode {
 
 }
 
+
+#new {}
+
+#new:hover {
+
+    display: block;
+}
 
 
 p>a>abbr {
