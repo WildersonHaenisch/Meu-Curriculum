@@ -33,10 +33,10 @@ if (know == true) {
 
 
 
-document.getElementById('chkid').addEventListener('click', function() {
+document.getElementById('chkid').addEventListener('click', function () {
 
     if (this.checked) {
 
-        window.location.href = 'index.html'
+        window.location.href = 'pag-inic.html'
     }
 });
